@@ -50,6 +50,13 @@ return [
         // 'where' => [],
     ],
 
+    'playground' => [
+    'enabled' => env('LIGHTHOUSE_PLAYGROUND', true),
+    'route_name' => 'graphql-playground',
+    'middleware' => ['web'],
+    'path' => '/graphql-playground',
+],
+
     /*
     |--------------------------------------------------------------------------
     | Authentication Guards

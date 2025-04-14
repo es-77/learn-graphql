@@ -64,3 +64,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+{
+  "editor.cursorShape": "line",
+  "editor.fontFamily": "'Source Code Pro', 'Consolas', 'Inconsolata', 'Droid Sans Mono', 'Monaco', monospace",
+  "editor.fontSize": 14,
+  "editor.reuseHeaders": true,
+  "editor.theme": "dark",
+  "general.betaUpdates": false,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "request.credentials": "omit",
+  "request.globalHeaders": {},
+  "schema.disableComments": true,
+  "schema.polling.enable": true,
+  "schema.polling.endpointFilter": "*localhost*",
+  "schema.polling.interval": 2000,
+  "tracing.hideTracingResponse": true,
+  "tracing.tracingSupported": true,
+  "endpoint": "https://laughing-spork-4pr9q79wxvr25774-8000.app.github.dev/graphql"
+}

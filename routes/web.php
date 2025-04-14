@@ -1,10 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\User;
 
 Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test', function () {
-    dd(111);
+    $user = User::first();
+    dd(111,$user);
 });

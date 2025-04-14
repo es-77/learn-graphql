@@ -1,1 +1,4 @@
-#import directives/*.graphql
+#import types/*.graphql
+#import queries/*.graphql
+#import mutations/*.graphql
+#import inputs/*.graphql

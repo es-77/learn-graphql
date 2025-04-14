@@ -1,0 +1,9 @@
+extend type Query {
+  postsWithComments: [Post!]!
+    @all
+    @eagerLoad(relation: "comments,user")
+
+  postWithAuthorAndComments(id: ID!): Post
+    @find
+    @eagerLoad(relation: ["user", "comments.user"])
+}

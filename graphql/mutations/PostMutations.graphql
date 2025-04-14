@@ -1,0 +1,4 @@
+extend type Mutation {
+  createPost(input: CreatePostInput!): Post
+    @create(model: "App\\Models\\Post")
+}

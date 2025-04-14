@@ -1,0 +1,6 @@
+type Comment {
+  id: ID!
+  body: String!
+  user: User! @belongsTo
+  post: Post! @belongsTo
+}
